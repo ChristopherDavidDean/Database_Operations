@@ -57,9 +57,8 @@ getSpecies <- function (species.description) {
 }
 
 # INPUT
-geodata <- read.csv (file.path (input.dir, 'geodata_complete2.csv'),
+geodata <- read.csv (file = "0_data/Wyoming_test_dataset.csv",
                      stringsAsFactors=FALSE)
-
 # BREAK UP SPECIES
 # create res dataframe
 res <- geodata[1, ]

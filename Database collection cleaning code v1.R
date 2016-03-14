@@ -1,6 +1,6 @@
 # Fake Database
 
-  geodata <- read.csv("D://PhD Work/Projects/ARAG BIAS/R//CAMPANIAN//V1//1_formations//geodata_complete2.csv")
+geodata <- read.csv("2_species/geodata.csv")
 
   ############## TESTING ###############
 
@@ -55,7 +55,7 @@ if (!file.exists (output.dir)) {
 write.table (uniqspp, file=file.path (output.dir, 'names.txt'),
              row.names=FALSE, col.names=FALSE, quote=FALSE)
   
-write.csv (res, file=file.path (output.dir, 'geodata.csv'))
+write.csv (res, file=file.path (output.dir, 'geodata2.csv'))
 
 
 #### DATE CLEANING ####

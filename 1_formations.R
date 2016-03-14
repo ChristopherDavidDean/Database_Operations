@@ -2,8 +2,6 @@
 # Dom Bennett
 # Add new formation information
 
-setwd(dir = "D://PhD Work/Projects/ARAG BIAS/R/CAMPANIAN/V1/")
-
 # DIRS AND FILES
 input.dir <- '0_data'
 output.dir <- '1_formations'
