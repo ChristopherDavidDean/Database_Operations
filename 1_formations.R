@@ -5,8 +5,8 @@
 # DIRS AND FILES
 input.dir <- '0_data'
 output.dir <- '1_formations'
-formations.file <- 'formation_test_Campanian.csv'
-geodata.file <- 'USGS_Denver_v1.csv'
+formations.file <- '0_data/lower_camp_forms.csv'
+geodata.file <- '0_data/USGS_camp_lower.csv'
 # if the output.dir doesn't exist, create it
 if (!file.exists (output.dir)) {
   dir.create (output.dir)

@@ -1,6 +1,6 @@
 # Fake Database
 
-geodata <- read.csv("2_species/geodata.csv")
+geodata <- read.csv("1_formations/geodata_complete.csv")
 
   ############## TESTING ###############
 
